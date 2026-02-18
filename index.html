@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Une question sincère</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f5f5f5;
+            text-align: center;
+            padding: 60px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-weight: normal;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        button {
+            padding: 12px 25px;
+            font-size: 16px;
+            margin: 15px;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .yes {
+            background-color: #2c3e50;
+            color: white;
+        }
+
+        .no {
+            background-color: #bdc3c7;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Une question sincère</h1>
+
+    <p>
+        Je ne vais pas exagérer les choses.
+        <br><br>
+        J’apprécie ta manière d’être, ta présence,
+        et ce que je ressens quand on échange.
+        <br><br>
+        Je ne cherche rien de compliqué.
+        Juste quelque chose de vrai.
+        <br><br>
+        Alors je te pose la question simplement :
+        <br><br>
+        Est-ce que tu accepterais d’être mon petit ami ?
+    </p>
+
+    <form action="https://formspree.io/f/xnjbzarp" method="POST">
+        <input type="hidden" name="reponse" value="Oui">
+        <button type="submit" class="yes">Oui</button>
+    </form>
+
+    <form action="https://formspree.io/f/xnjbzarp" method="POST">
+        <input type="hidden" name="reponse" value="Non">
+        <button type="submit" class="no">Non</button>
+    </form>
+</div>
+
+</body>
+</html>
